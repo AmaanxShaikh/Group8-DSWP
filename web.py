@@ -32,8 +32,15 @@ st.markdown("""
 
 @media (max-width: 768px) {
     .stApp {
+        background: linear-gradient(
+            rgba(10, 15, 26, 0.45), 
+            rgba(17, 24, 39, 0.50)
+        ), url('https://raw.githubusercontent.com/amaanxshaikh/nyc-citi-bike-streamlit/main/Image/background.jpg');
         background-size: cover;
+        background-position: center;
         background-attachment: scroll;
+        background-repeat: no-repeat;
+        min-height: 100vh;
     }
 }
     
