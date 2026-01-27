@@ -619,11 +619,11 @@ contrib_col1, contrib_col2 = st.columns(2, gap="large")
 with contrib_col1:
     st.markdown("""
     <div class="contrib-card">
-        <h4> Academic Excellence</h4>
+        <h4> Analytical Depth & Methodology</h4>
         <ul style="margin: 0; padding-left: 1.2rem;">
-            <li>End-to-end data science workflow</li>
-            <li>Statistical and ML foundations</li>
-            <li>Rigorous scientific methodology</li>
+            <li>Comprehensive end-to-end data science workflow</li>
+            <li>Strong grounding in statistical analysis and machine learning concepts</li>
+            <li>Structured, reproducible and scientifically sound methodology</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
@@ -631,11 +631,11 @@ with contrib_col1:
 with contrib_col2:
     st.markdown("""
     <div class="contrib-card contrib-card-alt">
-        <h4> Practical Impact</h4>
+        <h4> Practical & Business Impact</h4>
         <ul style="margin: 0; padding-left: 1.2rem;">
-            <li>Real-world transportation insights</li>
-            <li>Actionable recommendations</li>
-            <li>Stakeholder-focused deliverables</li>
+            <li>Data-driven insights into real-world urban mobility patterns</li>
+            <li>Clear, actionable recommendations for operational improvement</li>
+            <li>Decision-ready outputs tailored for non-technical stakeholders</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
@@ -709,3 +709,4 @@ with st.sidebar:
     - [Project Repository](https://code.ovgu.de/ratu79ge/bike-share-data-science/-/tree/main?ref_type=heads)
     - [Background Image Credits](https://unsplash.com/de/fotos/person-die-mit-dem-fahrrad-auf-einer-strasse-in-der-stadt-fahrt-y5CDsA0hQ7g)
     """)
+
