@@ -23,7 +23,7 @@ st.markdown("""
     background: linear-gradient(
         rgba(10, 15, 26, 0.45), 
         rgba(17, 24, 39, 0.50)
-    ), url('https://raw.githubusercontent.com/amaanxshaikh/nyc-citi-bike-streamlit/main/Image/background.jpg');
+    ), url('https://raw.githubusercontent.com/AmaanxShaikh/Group8-DSWP/main/Image/background.jpg');
     background-size: 150%;
     background-position: center;
     background-attachment: fixed;
@@ -709,4 +709,5 @@ with st.sidebar:
     - [Project Repository](https://code.ovgu.de/ratu79ge/bike-share-data-science/-/tree/main?ref_type=heads)
     - [Background Image Credits](https://unsplash.com/de/fotos/person-die-mit-dem-fahrrad-auf-einer-strasse-in-der-stadt-fahrt-y5CDsA0hQ7g)
     """)
+
 
